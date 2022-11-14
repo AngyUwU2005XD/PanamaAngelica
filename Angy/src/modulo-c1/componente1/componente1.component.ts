@@ -20,4 +20,10 @@ export class Componente1Component implements OnInit
 
   }
 
+  navegacion2()
+  {
+      this.router.navigate(['web3'])
+
+  }
+
 }
